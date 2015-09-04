@@ -1,0 +1,54 @@
+html, body, h1, h2, h3, h4, p, ol, ul, li, a {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+body {
+	padding: 30px 0 0 0;
+	background: #222222 url(images/darkstarbackground.png) top left repeat;
+	/* Background pattern from subtlepatterns.com */
+}
+
+p {
+	margin: 8px 14px 8px 14px;
+}
+
+.sidebar {
+	margin: 0 auto 20px auto;
+	max-width: 700px;
+}
+
+.sidebar li {
+	margin: 0 10px 0 10px;
+	display: inline;
+	list-style-type: none;
+	color: #FFFFFF;
+}
+
+.header {
+	padding: 30px 0 20px 0;
+	margin: 0 0 50px 0;
+	background-color: #3D5C99;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.news {
+	padding: 10px 10px 10px 10px;
+	margin: 0 auto 0 auto;
+	max-width: 700px;
+	background-color: #D1E0FF;
+	color: #222222;
+}
+
+article {
+	border-top: 2px solid #222222;
+}
+
+article h1 {
+	padding: 0 0 6px 24px;
+	border-bottom: 2px solid #888888;
+	margin: 10px 24px 0 24px;
+}
